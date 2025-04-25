@@ -1,6 +1,6 @@
 //array to store calculation history
 let history = []
-console.log(history)
+
 
 
 //addition function - adds two numbers, returns result, adds equation into history[]
@@ -12,7 +12,7 @@ function addNumbers(a,b) {
     })
     return a + b
 }
-console.log(addNumbers(1,2))
+
 
 //subtraction function - subtracts two numbers, returns result, adds equation to history[]
 function subtractNumbers(a,b) {
@@ -23,7 +23,7 @@ function subtractNumbers(a,b) {
     })
     return a - b
 }
-console.log(subtractNumbers(8,4))
+
 
 //multiplication function - multiplies two numbers, returns result, adds equation to history []
 function multiplyNumbers(a,b) {
@@ -34,7 +34,7 @@ function multiplyNumbers(a,b) {
     })
     return a * b
 }
-console.log(multiplyNumbers(3,3))
+
 
 //division function - divides numbers, returns result, adds equation to history[]
 function divideNumbers(a,b) {
@@ -45,7 +45,7 @@ function divideNumbers(a,b) {
     })
     return a / b
 }
-console.log(divideNumbers(8,4))
+
 
 //function to show history[] at user's request
 function showHistory() {
@@ -55,4 +55,4 @@ function showHistory() {
     return history
     }
 }
-console.log(showHistory())
+
