@@ -12,8 +12,6 @@ function addNumbers(a,b) {
     })
     return a + b
 }
-
-
 //subtraction function - subtracts two numbers, returns result, adds equation to history[]
 function subtractNumbers(a,b) {
     history.push({
@@ -23,8 +21,6 @@ function subtractNumbers(a,b) {
     })
     return a - b
 }
-
-
 //multiplication function - multiplies two numbers, returns result, adds equation to history []
 function multiplyNumbers(a,b) {
     history.push({
@@ -34,8 +30,6 @@ function multiplyNumbers(a,b) {
     })
     return a * b
 }
-
-
 //division function - divides numbers, returns result, adds equation to history[]
 function divideNumbers(a,b) {
     history.push({
@@ -45,8 +39,6 @@ function divideNumbers(a,b) {
     })
     return a / b
 }
-
-
 //function to show history[] at user's request
 function showHistory() {
     if (history.length === 0 ) {
